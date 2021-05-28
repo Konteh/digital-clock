@@ -20,6 +20,7 @@
             background-image: url(./img/logo.png);
             background-repeat: no-repeat;
             background-position: center;
+           
 
         }
         .clock{
@@ -32,6 +33,18 @@
             padding: 20px;
             font-family: 'Oswald', sans-serif;
 
+        }
+        @media screen and (max-width: 600px){
+            body {
+            background-size: 1000px;
+        }
+        .clock{
+            font-size: 2rem;
+        }
+        *{
+            padding-top: 70px;
+            margin-top: 70px;
+        }
         }
     </style>
     <div class="clock"></div>
